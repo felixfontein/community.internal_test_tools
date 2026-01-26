@@ -418,3 +418,13 @@ releases:
       - 0.18.4.yml
       - 165-typing.yml
     release_date: '2025-10-25'
+  0.19.0:
+    changes:
+      minor_changes:
+        - fetch_url and open_url unit test frameworks - add helper methods ``expect_query_absent()``
+          to check for absent query parameters (https://github.com/ansible-collections/community.internal_test_tools/pull/168).
+      release_summary: Feature release.
+    fragments:
+      - 0.19.0.yml
+      - 168-query-absent.yml
+    release_date: '2026-01-26'

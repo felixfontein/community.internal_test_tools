@@ -4,6 +4,19 @@ Community Internal Test Tools Collection Release Notes
 
 .. contents:: Topics
 
+v0.19.0
+=======
+
+Release Summary
+---------------
+
+Feature release.
+
+Minor Changes
+-------------
+
+- fetch_url and open_url unit test frameworks - add helper methods ``expect_query_absent()`` to check for absent query parameters (https://github.com/ansible-collections/community.internal_test_tools/pull/168).
+
 v0.18.4
 =======
 
